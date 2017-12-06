@@ -66,7 +66,7 @@ The constructors parameters are the following:
 
 ```
 ICO_B2E(address _token_adress, uint _start, uint _end, uint _minimumEth, uint _price)
-ICO_B2E(0x8Fe77DD9E424dBcB21d20b74150147eeC8AA764E, , , 5000000000000000, 1000)
+ICO_B2E(0x8Fe77DD9E424dBcB21d20b74150147eeC8AA764E, 1512527245, 1512528145, 5000000000000000, 1000)
 ```
 
 #### Roll back the token distribution
