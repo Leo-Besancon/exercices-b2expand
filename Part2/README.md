@@ -7,12 +7,9 @@ In this part:
 
 ### Usage
 
+The ICO_B2E contract is pretty straitforward to interact with. You can by tokens by sending ether to the contract, and if the funding goal isn't reached at the end of the contract, you can withdraw your ether.
 
-
-
-
-
-### Tests (Funding goal not reached)
+### Tests 1: Funding goal not reached
 
 I deployed this ICO contract using Account1, at the address [0x706c8D3Cfd2896cA01e22Af7A915E69332294bF7](https://ropsten.etherscan.io/address/0x706c8D3Cfd2896cA01e22Af7A915E69332294bF7).
 
@@ -54,8 +51,7 @@ The same thing but after the ICO ended, so the transaction fails: [0xf5b58900529
 
 In this transaction, Account2 called the withdrawIfFailed() function and gets its ether back: [0x78300987a8ed2fd5cc9aa42cb40434da50e58089d99ec68e36c33f9486b692ee](https://ropsten.etherscan.io/tx/0x78300987a8ed2fd5cc9aa42cb40434da50e58089d99ec68e36c33f9486b692ee).
 
-
-### Tests (Funding goal reached)
+### Tests 2: Funding goal reached
 
 I deployed this new ICO contract using Account1, at the address [0x53Eff277a42cB5096C844eCd9DfAF2a733F198f4](https://ropsten.etherscan.io/address/0x53Eff277a42cB5096C844eCd9DfAF2a733F198f4).
 
