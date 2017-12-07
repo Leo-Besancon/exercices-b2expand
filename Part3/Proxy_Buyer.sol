@@ -21,7 +21,7 @@ contract Proxy_Buyer {
 		ico = ICO_B2E(_ico_B2E);
 	}
 
-	// Called when someone sends Ether directly to the Proxy address
+	// Used to invest in the ICO.
 	
     function Invest() public payable {
 		require(msg.value > 0);
