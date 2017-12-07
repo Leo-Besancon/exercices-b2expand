@@ -40,3 +40,5 @@ In this transaction, I approved the ICO contract address to transfer from Accoun
 #### Invest from Account2 by using the proxy contract
 
 I sent 0.01 ETH to the Proxy_Buyer's address: [0x896a65e1ba69317617e1bf162f1a419e3c077b10226acbc92fec4bf1fbb65933](https://ropsten.etherscan.io/tx/0x896a65e1ba69317617e1bf162f1a419e3c077b10226acbc92fec4bf1fbb65933).
+
+Account2 then received the 10 tokens. We can follow the call to the ICO_B2E contract in the "Internal Transaction" tab in the transaction overview on Etherscan.
