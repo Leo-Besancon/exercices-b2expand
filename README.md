@@ -17,7 +17,7 @@ An ICO contract selling this token.
 ###  Part3
 A proxy contract to invest in the ICO.
 
-###  Part4
+###  Part4 (Not working)
 An improvement of the proxy contract using payment channels.
 
 ###  Part5
